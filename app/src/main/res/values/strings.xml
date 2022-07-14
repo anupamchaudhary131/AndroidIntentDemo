@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidIntentDemo</string>
+    <string name="intent">Intent and Intent Filters</string>
+    <string name="startBrowser">Start Browser</string>
+    <string name="startbrowserwithlaunchaction">Start Browser With Launch Action</string>
+    <string name="exceptionalstring">Exceptional Condition</string>
+</resources>

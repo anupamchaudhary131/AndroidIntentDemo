@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To LearnVern"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/layoutmargin"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intent"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/layoutmargin"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonstartbrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startBrowser"
+        android:textSize="@dimen/buttonsize"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/layoutmargin"
+        android:backgroundTint="@color/saffron"/>
+
+    <Button
+        android:id="@+id/buttonstartbrowserwithlaunchactivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startbrowserwithlaunchaction"
+        android:textSize="@dimen/buttonsize"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/layoutmargin"
+        android:textStyle="bold"
+        android:backgroundTint="@color/yellow" />
+
+    <Button
+        android:id="@+id/buttonexceptionalcondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exceptionalstring"
+        android:textSize="@dimen/buttonsize"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/layoutmargin"
+        android:backgroundTint="@color/teal_700" />
+
+</LinearLayout>
